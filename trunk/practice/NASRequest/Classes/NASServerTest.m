@@ -8,7 +8,6 @@
 
 #import "NASServerTest.h"
 
-
 @implementation NASServerTest
 
 @synthesize isTesting = _isTesting;
