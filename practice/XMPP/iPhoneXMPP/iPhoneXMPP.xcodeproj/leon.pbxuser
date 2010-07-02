@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* iPhoneXMPPAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 2782}}";
+			sepNavSelRange = "{398, 41}";
+			sepNavVisRange = "{242, 455}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* iPhoneXMPP */ = {
+		activeExec = 0;
+		executables = (
+			350DA41A11DDD95300D50103 /* iPhoneXMPP */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 350DA41A11DDD95300D50103 /* iPhoneXMPP */;
+		activeSDKPreference = iphonesimulator4.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* iPhoneXMPP */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* iPhoneXMPP */,
+		);
+		codeSenseManager = 350DA42B11DDD98400D50103 /* Code sense */;
+		executables = (
+			350DA41A11DDD95300D50103 /* iPhoneXMPP */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					229,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					262,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 299753820;
+			PBXWorkspaceStateSaveDate = 299753820;
+		};
+		perUserProjectItems = {
+			350DA45411DDDB7100D50103 = 350DA45411DDDB7100D50103 /* PBXTextBookmark */;
+			350DA45511DDDB7100D50103 = 350DA45511DDDB7100D50103 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 350DA42A11DDD98400D50103 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	350DA41A11DDD95300D50103 /* iPhoneXMPP */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iPhoneXMPP;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	350DA42A11DDD98400D50103 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	350DA42B11DDD98400D50103 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	350DA45411DDDB7100D50103 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC1F97D41152C9FF00138A8F /* DDXMLDocument.h */;
+		name = "DDXMLDocument.h: 6";
+		rLen = 0;
+		rLoc = 89;
+		rType = 0;
+		vrLen = 466;
+		vrLoc = 0;
+	};
+	350DA45511DDDB7100D50103 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC1F97DC1152C9FF00138A8F /* NSStringAdditions.m */;
+		name = "NSStringAdditions.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 327;
+		vrLoc = 0;
+	};
+	DC1F97D41152C9FF00138A8F /* DDXMLDocument.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {656, 936}}";
+			sepNavSelRange = "{89, 0}";
+			sepNavVisRange = "{0, 466}";
+		};
+	};
+	DC1F97DB1152C9FF00138A8F /* NSStringAdditions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {544, 228}}";
+			sepNavSelRange = "{59, 0}";
+			sepNavVisRange = "{0, 253}";
+		};
+	};
+	DC1F97DC1152C9FF00138A8F /* NSStringAdditions.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {440, 351}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 327}";
+		};
+	};
+	DC1F98101152CB5000138A8F /* MulticastDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 5993}}";
+			sepNavSelRange = "{212, 0}";
+			sepNavVisRange = "{3889, 274}";
+		};
+	};
+	DC1F981B1152CB9C00138A8F /* XMPP.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 186}}";
+			sepNavSelRange = "{20, 23}";
+			sepNavVisRange = "{0, 196}";
+		};
+	};
+	DC1F982A1152CB9C00138A8F /* XMPPStream.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {782, 8658}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 374}";
+		};
+	};
+}
