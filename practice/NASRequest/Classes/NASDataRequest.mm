@@ -20,7 +20,9 @@
 @synthesize imServerAddress = _imServerAddress;
 @synthesize imServerTest = _imServerTest;
 
-static unsigned char szKey[] = "C115FDE6F430AE12";
+static unsigned char szKey[] = "PF15FDIKEUD82JF9";
+
+static const char szApiSrv[] = "http://api.xt800.cn:80";
 
 - (id)init
 {
@@ -64,7 +66,12 @@ static unsigned char szKey[] = "C115FDE6F430AE12";
     {
         [self setIsReceiving:true];
         [self setIsServerTestEnd:false];
-        NSURL * url = [NSURL URLWithString:@"http://nas.kdt.cn/?VER=K101"];
+        
+        NSString * serverUrl = [NSString stringWithCString:szApiSrv encoding:[NSString defaultCStringEncoding]];
+        serverUrl = [serverUrl stringByAppendingString:@"/nas"];
+        NSString * requestUrl = [self buildExtendURL:serverUrl];
+        
+        NSURL * url = [NSURL URLWithString:requestUrl];
         NSURLRequest * request = [NSURLRequest requestWithURL:url];
         if(_connection)
         {
@@ -222,7 +229,7 @@ static unsigned char szKey[] = "C115FDE6F430AE12";
     if (root != nil) {
         NSDictionary * dict = [NSDictionary dictionaryWithDictionary:root];
         if (dict != nil) {
-            id backup = [dict objectForKey:@"backup"];
+            id backup = [dict objectForKey:@"im"];
             if (backup != nil) {
                 [self setImServerAddress:[NSArray arrayWithArray:backup]];
             }
@@ -284,6 +291,15 @@ static unsigned char szKey[] = "C115FDE6F430AE12";
             result = [result stringByAppendingString:testResult];
         }
     }
+    return result;
+}
+
+- (NSString *)buildExtendURL:(NSString *)URL
+{
+    NSString * result = [NSString stringWithString:URL];
+    
+    result = [result stringByAppendingString:@"?v=1.0.0&t=m"];
+              
     return result;
 }
 

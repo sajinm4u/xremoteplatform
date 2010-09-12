@@ -30,5 +30,6 @@
 - (void)stopServerTest;
 
 - (NSString *)serverTestResult;
+- (NSString *)buildExtendURL:(NSString *)URL;
 
 @end
