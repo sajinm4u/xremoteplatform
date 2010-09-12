@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'ChatView' target in the 'ChatView' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
